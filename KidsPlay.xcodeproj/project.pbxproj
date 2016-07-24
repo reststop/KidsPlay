@@ -40,6 +40,7 @@
 		90F32F711D449BE8008D7481 /* friend-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F32F5F1D449BE8008D7481 /* friend-selected.png */; };
 		90F32F721D449BE8008D7481 /* friend-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F32F601D449BE8008D7481 /* friend-selected@2x.png */; };
 		90F32F731D449BE8008D7481 /* friend-selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F32F611D449BE8008D7481 /* friend-selected@3x.png */; };
+		90F32F751D453170008D7481 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F32F741D453170008D7481 /* DatePickerVC.swift */; };
 		C31259DB1D4461480032B6A6 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C31259DA1D4461480032B6A6 /* Arrow.png */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,7 @@
 		90F32F5F1D449BE8008D7481 /* friend-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend-selected.png"; sourceTree = "<group>"; };
 		90F32F601D449BE8008D7481 /* friend-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend-selected@2x.png"; sourceTree = "<group>"; };
 		90F32F611D449BE8008D7481 /* friend-selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friend-selected@3x.png"; sourceTree = "<group>"; };
+		90F32F741D453170008D7481 /* DatePickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		C31259DA1D4461480032B6A6 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 				903BD5C01D4480460080A8FF /* KidsPlay-Bridging-Header.h */,
 				903BD5C11D4480460080A8FF /* OverlayView.h */,
 				903BD5C21D4480460080A8FF /* OverlayView.m */,
+				90F32F741D453170008D7481 /* DatePickerVC.swift */,
 			);
 			name = SwiperView;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				903BD5C61D4480460080A8FF /* OverlayView.m in Sources */,
 				903BD5C31D4480460080A8FF /* DraggableView.m in Sources */,
 				902C7FA71D43D61600DC4F89 /* ViewController.swift in Sources */,
+				90F32F751D453170008D7481 /* DatePickerVC.swift in Sources */,
 				902C7FA51D43D61600DC4F89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
