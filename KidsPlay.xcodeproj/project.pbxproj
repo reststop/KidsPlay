@@ -436,7 +436,7 @@
 				INFOPLIST_FILE = KidsPlay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlayDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "KidsPlay/KidsPlay-Bridging-Header.h";
@@ -455,7 +455,7 @@
 				INFOPLIST_FILE = KidsPlay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlayDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "KidsPlay/KidsPlay-Bridging-Header.h";
