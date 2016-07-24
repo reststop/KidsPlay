@@ -19,19 +19,21 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
     private var friends: Int = 0
     private var activities: Int = 0
     private var friendsName : [String] = [
-        "Yash Narayan",
-        "Carla Parker",
-        "Peter Carter",
-        "Alice Robin",
-        "Larry Brandon",
-        "Amanda Brandon"]
+        "Stephanie",
+        "Larry",
+        "Alice",
+        "Billy",
+        "Maya",
+        "Peter"
+        ]
     private var friendsFileName : [String] = [
-        "kid6-yash.png",
         "kid1.png",
         "kid4.png",
         "kid3.png",
         "kid5.png",
-        "kid2.png"]
+        "kid2.png",
+        "kid6-yash.png"
+    ]
     private var friendsImage : [UIImage?] = []
     private let selectedFriendImage = UIImage.init(named: "friend-selected.png")
 
