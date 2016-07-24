@@ -12,6 +12,10 @@
 		902C7FAA1D43D61600DC4F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902C7FA81D43D61600DC4F89 /* Main.storyboard */; };
 		902C7FAC1D43D61700DC4F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902C7FAB1D43D61700DC4F89 /* Assets.xcassets */; };
 		902C7FAF1D43D61700DC4F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902C7FAD1D43D61700DC4F89 /* LaunchScreen.storyboard */; };
+		903BD5C31D4480460080A8FF /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BD5BC1D4480460080A8FF /* DraggableView.m */; };
+		903BD5C41D4480460080A8FF /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BD5BE1D4480460080A8FF /* DraggableViewBackground.m */; };
+		903BD5C51D4480460080A8FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903BD5BF1D4480460080A8FF /* Images.xcassets */; };
+		903BD5C61D4480460080A8FF /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BD5C21D4480460080A8FF /* OverlayView.m */; };
 		C31259DB1D4461480032B6A6 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C31259DA1D4461480032B6A6 /* Arrow.png */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,14 @@
 		902C7FAB1D43D61700DC4F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		902C7FAE1D43D61700DC4F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902C7FB01D43D61700DC4F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903BD5BB1D4480460080A8FF /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		903BD5BC1D4480460080A8FF /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		903BD5BD1D4480460080A8FF /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		903BD5BE1D4480460080A8FF /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		903BD5BF1D4480460080A8FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		903BD5C01D4480460080A8FF /* KidsPlay-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KidsPlay-Bridging-Header.h"; sourceTree = "<group>"; };
+		903BD5C11D4480460080A8FF /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		903BD5C21D4480460080A8FF /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
 		C31259DA1D4461480032B6A6 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +68,7 @@
 		902C7FA31D43D61600DC4F89 /* KidsPlay */ = {
 			isa = PBXGroup;
 			children = (
+				903BD5C71D4480530080A8FF /* SwiperView */,
 				902C7FA41D43D61600DC4F89 /* AppDelegate.swift */,
 				902C7FA61D43D61600DC4F89 /* ViewController.swift */,
 				902C7FA81D43D61600DC4F89 /* Main.storyboard */,
@@ -65,6 +78,21 @@
 				902C7FB01D43D61700DC4F89 /* Info.plist */,
 			);
 			path = KidsPlay;
+			sourceTree = "<group>";
+		};
+		903BD5C71D4480530080A8FF /* SwiperView */ = {
+			isa = PBXGroup;
+			children = (
+				903BD5BB1D4480460080A8FF /* DraggableView.h */,
+				903BD5BC1D4480460080A8FF /* DraggableView.m */,
+				903BD5BD1D4480460080A8FF /* DraggableViewBackground.h */,
+				903BD5BE1D4480460080A8FF /* DraggableViewBackground.m */,
+				903BD5BF1D4480460080A8FF /* Images.xcassets */,
+				903BD5C01D4480460080A8FF /* KidsPlay-Bridging-Header.h */,
+				903BD5C11D4480460080A8FF /* OverlayView.h */,
+				903BD5C21D4480460080A8FF /* OverlayView.m */,
+			);
+			name = SwiperView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				902C7FAF1D43D61700DC4F89 /* LaunchScreen.storyboard in Resources */,
+				903BD5C51D4480460080A8FF /* Images.xcassets in Resources */,
 				902C7FAC1D43D61700DC4F89 /* Assets.xcassets in Resources */,
 				902C7FAA1D43D61600DC4F89 /* Main.storyboard in Resources */,
 				C31259DB1D4461480032B6A6 /* Arrow.png in Resources */,
@@ -139,6 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				903BD5C41D4480460080A8FF /* DraggableViewBackground.m in Sources */,
+				903BD5C61D4480460080A8FF /* OverlayView.m in Sources */,
+				903BD5C31D4480460080A8FF /* DraggableView.m in Sources */,
 				902C7FA71D43D61600DC4F89 /* ViewController.swift in Sources */,
 				902C7FA51D43D61600DC4F89 /* AppDelegate.swift in Sources */,
 			);
@@ -253,11 +285,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KidsPlay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KidsPlay/KidsPlay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -265,11 +300,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KidsPlay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KidsPlay/KidsPlay-Bridging-Header.h";
 			};
 			name = Release;
 		};
