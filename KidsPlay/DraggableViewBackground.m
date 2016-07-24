@@ -59,10 +59,10 @@ static const float CARD_WIDTH = 288; //%%% width of the draggable card
     [messageButton setImage:[UIImage imageNamed:@"messageButton"] forState:UIControlStateNormal];
     */
     
-    xButton = [[UIButton alloc]initWithFrame:CGRectMake(85, 500, 59, 59)];
+    xButton = [[UIButton alloc]initWithFrame:CGRectMake(85, 550, 59, 59)];
     [xButton setImage:[UIImage imageNamed:@"xButton"] forState:UIControlStateNormal];
     [xButton addTarget:self action:@selector(swipeLeft) forControlEvents:UIControlEventTouchUpInside];
-    checkButton = [[UIButton alloc]initWithFrame:CGRectMake(225, 500, 59, 59)];
+    checkButton = [[UIButton alloc]initWithFrame:CGRectMake(225, 550, 59, 59)];
     [checkButton setImage:[UIImage imageNamed:@"checkButton"] forState:UIControlStateNormal];
     [checkButton addTarget:self action:@selector(swipeRight) forControlEvents:UIControlEventTouchUpInside];
     

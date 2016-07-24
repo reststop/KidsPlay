@@ -361,6 +361,15 @@
                     <view key="view" contentMode="scaleToFill" id="qfI-Zw-kql" customClass="DraggableViewBackground">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lgv-Pf-Zgo">
+                                <rect key="frame" x="166" y="627" width="42" height="30"/>
+                                <state key="normal" title="DONE"/>
+                                <connections>
+                                    <segue destination="ndo-ca-Epl" kind="show" id="TGc-3w-OqD"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -368,6 +377,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YY1-7b-GgO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-403.5" y="-132.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Mo-YD-1WH">
+            <objects>
+                <viewController id="ndo-ca-Epl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sI3-lP-uwe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Krg-pg-x7j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="23z-wY-Yzr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPu-pb-RFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.5" y="-132.5"/>
         </scene>
     </scenes>
     <resources>
