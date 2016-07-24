@@ -101,7 +101,6 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
             let cell : friendsCell = collectionView.dequeueReusableCellWithReuseIdentifier(friendsReuseID, forIndexPath: indexPath) as! friendsCell
             cell.imageView.image = friendsImage[indexPath.row]
             cell.selectedView.image = selectedFriendImage
-//            cell.selectedView.alpha = 0.5
             cell.selectedView.hidden = true
             cell.nameLabel.text = friendsName[indexPath.row]
             return cell
@@ -110,7 +109,6 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
             let cell : activityCell = collectionView.dequeueReusableCellWithReuseIdentifier(activityReuseID, forIndexPath: indexPath) as! activityCell
             cell.imageView.image = activityImage[indexPath.row]
             cell.selectedView.image = selectedActivityImage
-//            cell.selectedView.alpha = 0.5
             cell.selectedView.hidden = true
             cell.nameLabel.text = activityName[indexPath.row]
             return cell
