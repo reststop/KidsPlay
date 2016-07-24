@@ -12,6 +12,7 @@
 		902C7FAA1D43D61600DC4F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902C7FA81D43D61600DC4F89 /* Main.storyboard */; };
 		902C7FAC1D43D61700DC4F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902C7FAB1D43D61700DC4F89 /* Assets.xcassets */; };
 		902C7FAF1D43D61700DC4F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902C7FAD1D43D61700DC4F89 /* LaunchScreen.storyboard */; };
+		C31259DB1D4461480032B6A6 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C31259DA1D4461480032B6A6 /* Arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		902C7FAB1D43D61700DC4F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		902C7FAE1D43D61700DC4F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902C7FB01D43D61700DC4F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31259DA1D4461480032B6A6 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				902C7FA61D43D61600DC4F89 /* ViewController.swift */,
 				902C7FA81D43D61600DC4F89 /* Main.storyboard */,
 				902C7FAB1D43D61700DC4F89 /* Assets.xcassets */,
+				C31259DA1D4461480032B6A6 /* Arrow.png */,
 				902C7FAD1D43D61700DC4F89 /* LaunchScreen.storyboard */,
 				902C7FB01D43D61700DC4F89 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 				902C7FAF1D43D61700DC4F89 /* LaunchScreen.storyboard in Resources */,
 				902C7FAC1D43D61700DC4F89 /* Assets.xcassets in Resources */,
 				902C7FAA1D43D61600DC4F89 /* Main.storyboard in Resources */,
+				C31259DB1D4461480032B6A6 /* Arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				902C7FB51D43D61700DC4F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
