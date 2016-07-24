@@ -16,6 +16,9 @@
 		903BD5C41D4480460080A8FF /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BD5BE1D4480460080A8FF /* DraggableViewBackground.m */; };
 		903BD5C51D4480460080A8FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903BD5BF1D4480460080A8FF /* Images.xcassets */; };
 		903BD5C61D4480460080A8FF /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 903BD5C21D4480460080A8FF /* OverlayView.m */; };
+		90DB0BD11D453D5C00A2F64E /* friendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB0BCE1D453D5C00A2F64E /* friendsCell.swift */; };
+		90DB0BD21D453D5C00A2F64E /* activityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB0BCF1D453D5C00A2F64E /* activityCell.swift */; };
+		90DB0BD31D453D5C00A2F64E /* PlayDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB0BD01D453D5C00A2F64E /* PlayDateView.swift */; };
 		90F32F471D449B7B008D7481 /* kid1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F32F411D449B7B008D7481 /* kid1.png */; };
 		90F32F481D449B7B008D7481 /* kid2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F32F421D449B7B008D7481 /* kid2.png */; };
 		90F32F491D449B7B008D7481 /* kid3.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F32F431D449B7B008D7481 /* kid3.png */; };
@@ -60,6 +63,9 @@
 		903BD5C01D4480460080A8FF /* KidsPlay-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KidsPlay-Bridging-Header.h"; sourceTree = "<group>"; };
 		903BD5C11D4480460080A8FF /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
 		903BD5C21D4480460080A8FF /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		90DB0BCE1D453D5C00A2F64E /* friendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendsCell.swift; sourceTree = "<group>"; };
+		90DB0BCF1D453D5C00A2F64E /* activityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityCell.swift; sourceTree = "<group>"; };
+		90DB0BD01D453D5C00A2F64E /* PlayDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayDateView.swift; sourceTree = "<group>"; };
 		90F32F411D449B7B008D7481 /* kid1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid1.png; sourceTree = "<group>"; };
 		90F32F421D449B7B008D7481 /* kid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid2.png; sourceTree = "<group>"; };
 		90F32F431D449B7B008D7481 /* kid3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid3.png; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 				903BD5C71D4480530080A8FF /* SwiperView */,
 				902C7FA41D43D61600DC4F89 /* AppDelegate.swift */,
 				902C7FA81D43D61600DC4F89 /* Main.storyboard */,
+				90DB0BCE1D453D5C00A2F64E /* friendsCell.swift */,
+				90DB0BCF1D453D5C00A2F64E /* activityCell.swift */,
+				90DB0BD01D453D5C00A2F64E /* PlayDateView.swift */,
 				902C7FAB1D43D61700DC4F89 /* Assets.xcassets */,
 				90F32F4D1D449BE8008D7481 /* activities */,
 				90F32F5A1D449BE8008D7481 /* activity-selected */,
@@ -301,6 +310,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				903BD5C41D4480460080A8FF /* DraggableViewBackground.m in Sources */,
+				90DB0BD11D453D5C00A2F64E /* friendsCell.swift in Sources */,
+				90DB0BD31D453D5C00A2F64E /* PlayDateView.swift in Sources */,
+				90DB0BD21D453D5C00A2F64E /* activityCell.swift in Sources */,
 				903BD5C61D4480460080A8FF /* OverlayView.m in Sources */,
 				903BD5C31D4480460080A8FF /* DraggableView.m in Sources */,
 				902C7FA71D43D61600DC4F89 /* ViewController.swift in Sources */,
