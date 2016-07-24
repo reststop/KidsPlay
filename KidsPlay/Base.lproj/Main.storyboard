@@ -270,6 +270,9 @@
                                 <state key="normal" title="DECLINE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ybz-Vb-lP7" kind="show" id="aKE-e5-U66"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCg-sx-47G">
                                 <rect key="frame" x="20" y="268" width="119" height="21"/>
@@ -375,14 +378,28 @@
                                     <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.parent-view edit" translatesAutoresizingMaskIntoConstraints="NO" id="AK3-a2-bxg">
                                         <rect key="frame" x="0.0" y="-80" width="380" height="642"/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yashimage" translatesAutoresizingMaskIntoConstraints="NO" id="CAU-jA-xGD">
+                                        <rect key="frame" x="15" y="55" width="85" height="84"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Billy Bob" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD9-qf-CDz">
+                                        <rect key="frame" x="205" y="34" width="95" height="14"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.83921568627450982" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid4" translatesAutoresizingMaskIntoConstraints="NO" id="1wz-VX-9wB">
+                                        <rect key="frame" x="317" y="65" width="61" height="63"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="23O-WG-ocA" userLabel="NavBarView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parent Approval" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30B-Dn-Gib">
-                                        <rect key="frame" x="-1" y="28" width="375" height="28"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Host Parent Approval" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30B-Dn-Gib">
+                                        <rect key="frame" x="0.0" y="18" width="375" height="28"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="24"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -556,26 +573,53 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xuC-m6-CCw" userLabel="MockImage">
+                                <rect key="frame" x="0.0" y="82" width="378" height="145"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yashimage" translatesAutoresizingMaskIntoConstraints="NO" id="9HE-Qh-shP">
+                                        <rect key="frame" x="16" y="61" width="61" height="65"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.parent-view edit" translatesAutoresizingMaskIntoConstraints="NO" id="Ohd-Zr-JFm">
+                                        <rect key="frame" x="-3" y="-83" width="380" height="642"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid4" translatesAutoresizingMaskIntoConstraints="NO" id="QBQ-vc-WMk">
+                                        <rect key="frame" x="9" y="-67" width="61" height="63"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid4" translatesAutoresizingMaskIntoConstraints="NO" id="QHJ-8q-RVI">
+                                        <rect key="frame" x="9" y="-67" width="61" height="63"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid4" translatesAutoresizingMaskIntoConstraints="NO" id="r5C-8f-kT7">
+                                        <rect key="frame" x="9" y="-67" width="61" height="63"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Yashimage" translatesAutoresizingMaskIntoConstraints="NO" id="7bC-dJ-Q0h">
+                                        <rect key="frame" x="16" y="64" width="60" height="60"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid4" translatesAutoresizingMaskIntoConstraints="NO" id="dYG-pZ-Hp5">
+                                        <rect key="frame" x="301" y="62" width="76" height="71"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Billy Bob" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CmK-mt-6V4">
+                                        <rect key="frame" x="198" y="32" width="95" height="14"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xYg-aN-aAQ" userLabel="NavBarView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parent Approval" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhW-XS-5Th">
-                                        <rect key="frame" x="16" y="18" width="375" height="28"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Invited Parent Approval" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhW-XS-5Th">
+                                        <rect key="frame" x="0.0" y="18" width="375" height="28"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="24"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.78823529410000004" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xuC-m6-CCw" userLabel="MockImage">
-                                <rect key="frame" x="0.0" y="82" width="378" height="145"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.parent-view edit" translatesAutoresizingMaskIntoConstraints="NO" id="Ohd-Zr-JFm">
-                                        <rect key="frame" x="0.0" y="-80" width="380" height="642"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -584,7 +628,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPu-pb-RFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="105.5" y="-140.5"/>
+            <point key="canvasLocation" x="27.5" y="-146.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="O7a-Jo-t70">
@@ -599,8 +643,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4.kid-view" translatesAutoresizingMaskIntoConstraints="NO" id="Zk5-fU-j5g">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="-5" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T03-UQ-nWD">
+                                <rect key="frame" x="136" y="617" width="102" height="55"/>
+                                <connections>
+                                    <segue destination="myl-e7-fMR" kind="show" id="c9p-de-umM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -608,7 +658,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5x-Sh-lod" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="648.5" y="-140.5"/>
+            <point key="canvasLocation" x="436.5" y="-146.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RDk-Kt-CSa">
@@ -626,6 +676,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWd-y0-NFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="266" y="552"/>
         </scene>
     </scenes>
     <resources>
@@ -633,5 +684,10 @@
         <image name="4.kid-view" width="750" height="1446"/>
         <image name="5.parent-view edit" width="375" height="967"/>
         <image name="Arrow.png" width="68" height="68"/>
+        <image name="Yashimage" width="60" height="60"/>
+        <image name="kid4" width="60" height="60"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eBd-lZ-z1f"/>
+    </inferredMetricsTieBreakers>
 </document>
