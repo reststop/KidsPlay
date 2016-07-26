@@ -243,7 +243,7 @@
 				TargetAttributes = {
 					902C7FA01D43D61600DC4F89 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = G3KSP4Z87W;
+						DevelopmentTeam = 4AS955NY7K;
 					};
 				};
 			};
@@ -434,9 +434,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = KidsPlay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlayDelegate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlayDelegate5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "KidsPlay/KidsPlay-Bridging-Header.h";
@@ -453,9 +453,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = KidsPlay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlayDelegate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlayDelegate5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "KidsPlay/KidsPlay-Bridging-Header.h";
