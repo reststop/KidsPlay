@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="myl-e7-fMR">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
@@ -463,7 +462,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1C4-qB-6Tc">
-                                        <rect key="frame" x="0.0" y="70" width="416" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="416" height="80"/>
                                         <connections>
                                             <action selector="doneButtonPressed" destination="jf3-JH-jsW" eventType="touchUpInside" id="GqP-Vk-tDG"/>
                                             <segue destination="OST-yH-mTk" kind="show" id="y4r-Mm-bdf"/>
