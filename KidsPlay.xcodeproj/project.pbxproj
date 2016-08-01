@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E03A0CE1D4ABF8A00420FF2 /* KidsPlay-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E03A0CD1D4ABF8A00420FF2 /* KidsPlay-120x120.png */; };
 		902C7FA51D43D61600DC4F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C7FA41D43D61600DC4F89 /* AppDelegate.swift */; };
 		902C7FA71D43D61600DC4F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C7FA61D43D61600DC4F89 /* ViewController.swift */; };
 		902C7FAA1D43D61600DC4F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902C7FA81D43D61600DC4F89 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E03A0CD1D4ABF8A00420FF2 /* KidsPlay-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KidsPlay-120x120.png"; sourceTree = "<group>"; };
 		902C7FA11D43D61600DC4F89 /* KidsPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		902C7FA41D43D61600DC4F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		902C7FA61D43D61600DC4F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				90DB0BCF1D453D5C00A2F64E /* activityCell.swift */,
 				90DB0BD01D453D5C00A2F64E /* PlayDateView.swift */,
 				902C7FAB1D43D61700DC4F89 /* Assets.xcassets */,
+				7E03A0CD1D4ABF8A00420FF2 /* KidsPlay-120x120.png */,
 				90F32F4D1D449BE8008D7481 /* activities */,
 				90F32F5A1D449BE8008D7481 /* activity-selected */,
 				90F32F5E1D449BE8008D7481 /* friend-selected */,
@@ -243,7 +246,7 @@
 				TargetAttributes = {
 					902C7FA01D43D61600DC4F89 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 4AS955NY7K;
+						DevelopmentTeam = TLHK3XX468;
 					};
 				};
 			};
@@ -285,6 +288,7 @@
 				90F32F6D1D449BE8008D7481 /* Kids at Amusement Park@3x.png in Resources */,
 				902C7FAC1D43D61700DC4F89 /* Assets.xcassets in Resources */,
 				90F32F6E1D449BE8008D7481 /* activity-selected.png in Resources */,
+				7E03A0CE1D4ABF8A00420FF2 /* KidsPlay-120x120.png in Resources */,
 				90F32F4B1D449B7B008D7481 /* kid5.png in Resources */,
 				902C7FAA1D43D61600DC4F89 /* Main.storyboard in Resources */,
 				90F32F6B1D449BE8008D7481 /* Kids at Amusement Park.png in Resources */,
@@ -406,7 +410,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -436,7 +440,7 @@
 				INFOPLIST_FILE = KidsPlay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlayDelegate5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intel.testme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "KidsPlay/KidsPlay-Bridging-Header.h";
@@ -450,12 +454,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = KidsPlay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.KidsPlayDelegate5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intel.testme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "KidsPlay/KidsPlay-Bridging-Header.h";
