@@ -17,9 +17,9 @@ class friendsCell: UICollectionViewCell {
     @IBOutlet weak var nameLabel : UILabel!
 
     @IBAction func selectedButtonPressed() {
-        selectedView.hidden = !selectedView.hidden
+        selectedView.isHidden = !selectedView.isHidden
         if self.delegate != nil {
-            self.delegate!.selectedEntry("friend", index: index, isSelected: selectedView.hidden)
+            self.delegate!.selectedEntry("friend", index: index, isSelected: selectedView.isHidden)
         }
     }
 }

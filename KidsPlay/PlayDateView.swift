@@ -13,12 +13,12 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
     @IBOutlet var friendsView : UICollectionView?
     @IBOutlet var activityView : UICollectionView?
 
-    private let friendsReuseID = "friendsCell"
-    private let activityReuseID = "activityCell"
+    fileprivate let friendsReuseID = "friendsCell"
+    fileprivate let activityReuseID = "activityCell"
 
-    private var friends: Int = 0
-    private var activities: Int = 0
-    private var friendsName : [String] = [
+    fileprivate var friends: Int = 0
+    fileprivate var activities: Int = 0
+    fileprivate var friendsName : [String] = [
         "Stephanie",
         "Larry",
         "Alice",
@@ -26,7 +26,7 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
         "Maya",
         "Peter"
         ]
-    private var friendsFileName : [String] = [
+    fileprivate var friendsFileName : [String] = [
         "kid1.png",
         "kid4.png",
         "kid3.png",
@@ -34,25 +34,25 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
         "kid2.png",
         "kid6-yash.png"
     ]
-    private var friendsImage : [UIImage?] = []
-    private let selectedFriendImage = UIImage.init(named: "friend-selected.png")
-    private var friendIsSelected : [Bool] = [false, false, false, false, false, false]
+    fileprivate var friendsImage : [UIImage?] = []
+    fileprivate let selectedFriendImage = UIImage.init(named: "friend-selected.png")
+    fileprivate var friendIsSelected : [Bool] = [false, false, false, false, false, false]
 
-    private var activityName : [String] = [
+    fileprivate var activityName : [String] = [
         "My House",
         "Movies",
         "Park",
         "Play"]
-    private var activityFileName : [String] = [
+    fileprivate var activityFileName : [String] = [
         "activity3.png",
         "activity2.png",
         "Kids at Amusement Park.png",
         "activity4.png"]
-    private var activityImage : [UIImage?] = []
-    private let selectedActivityImage = UIImage.init(named: "activity-selected.png")
-    private var activityIsSelected : [Bool] = [false, false, false, false]
+    fileprivate var activityImage : [UIImage?] = []
+    fileprivate let selectedActivityImage = UIImage.init(named: "activity-selected.png")
+    fileprivate var activityIsSelected : [Bool] = [false, false, false, false]
 
-    func selectedEntry(type: String, index: Int, isSelected: Bool) {
+    func selectedEntry(_ type: String, index: Int, isSelected: Bool) {
         if type == "friend" {
             if index < friendIsSelected.count {
                 friendIsSelected[index] = !isSelected
@@ -60,7 +60,7 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
         }
         if type == "activity" {
             if index < activityIsSelected.count {
-                activityIsSelected[index] = !isSelected
+               // activityaroIsSelected[index] = !isSelected
             }
         }
     }
@@ -95,12 +95,12 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
         // Dispose of any resources that can be recreated.
     }
 
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
         if collectionView == self.friendsView {
             return self.friendsName.count
@@ -114,25 +114,25 @@ class PlayDateView: UIViewController, UICollectionViewDataSource, UICollectionVi
 
 
 
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let row: Int = indexPath.row
         if collectionView == self.friendsView {
-            let cell : friendsCell = collectionView.dequeueReusableCellWithReuseIdentifier(friendsReuseID, forIndexPath: indexPath) as! friendsCell
+            let cell : friendsCell = collectionView.dequeueReusableCell(withReuseIdentifier: friendsReuseID, for: indexPath) as! friendsCell
             cell.index = row
             cell.delegate = self
             cell.imageView.image = friendsImage[row]
             cell.selectedView.image = selectedFriendImage
-            cell.selectedView.hidden = !friendIsSelected[row]
+            cell.selectedView.isHidden = !friendIsSelected[row]
             cell.nameLabel.text = friendsName[row]
             return cell
         }
 //        else if collectionView == self.activityView {
-            let cell : activityCell = collectionView.dequeueReusableCellWithReuseIdentifier(activityReuseID, forIndexPath: indexPath) as! activityCell
+            let cell : activityCell = collectionView.dequeueReusableCell(withReuseIdentifier: activityReuseID, for: indexPath) as! activityCell
             cell.index = row
             cell.delegate = self
             cell.imageView.image = activityImage[row]
             cell.selectedView.image = selectedActivityImage
-            cell.selectedView.hidden = !activityIsSelected[row]
+            cell.selectedView.isHidden = !activityIsSelected[row]
             cell.nameLabel.text = activityName[row]
             return cell
 //        }

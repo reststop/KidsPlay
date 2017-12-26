@@ -15,6 +15,6 @@ class DatePickerVC: UIViewController {
     }
 
     @IBAction func doneButtonPressed() {
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
 }
